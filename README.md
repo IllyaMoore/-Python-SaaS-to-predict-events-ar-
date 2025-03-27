@@ -1,42 +1,23 @@
-War Event Prediction SaaS
-Overview
-This Python-based SaaS application predicts war events (air alarms, explosions, and artillery fire) in Ukraine based on historical data, weather, and reports from various sources, including ISW, Visual Crossing Weather, and other regional data.
+# War Event Prediction SaaS
 
-Features
-Predicts air alarms, explosions, and artillery fire
+## Overview
+A Python SaaS solution designed to predict war events in Ukraine, such as air alarms, explosions, and artillery fire, using data from multiple sources like ISW reports, weather forecasts, and regional situations.
 
-Data Sources: ISW, weather forecasts, regional alarm situations
+## Features
+- **Predicts**: Air alarms, explosions, and artillery fire.
+- **Data Collection**: Automated data gathering from APIs and web scraping.
+- **Forecasting Model**: Prepares and forecasts data.
+- **Frontend UI**: Interface to interact with the backend system.
 
-Data Collection: Automates data collection from APIs and web scraping
+## Installation
+1. **Clone the repository**:
+   ```bash
+   git clone <https://github.com/IllyaMoore/-Python-SaaS-to-predict-events-ar-/edit/main
 
-Forecasting Model: Prepares data and runs predictions
+## Data Sources
 
-Frontend UI: Interface for users to interact with predictions
+- **War Events**: [Air Alarms](https://air-alarms.in.ua/)
+- **Weather Forecasts**: [Visual Crossing API](https://www.visualcrossing.com/weather-api)
+- **US Reports**: [Understanding War](https://www.understandingwar.org/)
+- **Regional Alerts**: [Ukraine Alarm API](https://api.ukrainealarm.com/)
 
-Modules
-Data Receiver: Fetches weather, war reports, and alarm data
-
-Forecasting: Processes data and makes predictions
-
-Frontend: User interface for interaction with the system
-
-Setup
-Clone the Repo:
-
-bash
-Копіювати
-Редагувати
-git clone <https://github.com/IllyaMoore/-Python-SaaS-to-predict-events-ar-/new/main>
-
-nginx
-Копіювати
-Редагувати
-python app.py
-Data Sources
-War Events: Air Alarms
-
-Weather: Visual Crossing
-
-US Reports: Understanding War
-
-Alarm Data: Ukraine Alarm API
